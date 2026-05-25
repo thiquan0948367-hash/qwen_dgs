@@ -2,6 +2,7 @@
 import Splash from "./views/Splash";
 import Onboarding from "./views/Onboarding";
 import Food from "./views/Food";
+import Hub from "./views/Hub";
 import Travel from "./views/Travel";
 import Creation from "./views/Creation";
 import Memory from "./views/Memory";
@@ -20,6 +21,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Splash />} />
         <Route path="/onboarding" element={<Onboarding />} />
+        <Route path="/hub" element={<Hub />} />
         <Route path="/food" element={<Food />} />
         <Route path="/travel" element={<Travel />} />
         <Route path="/creation" element={<Creation />} />
